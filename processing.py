@@ -154,7 +154,7 @@ model.compile(loss="mse", optimizer="adam", metrics=["mae"])
 history = model.fit(train_ds, 
           steps_per_epoch=len(train) // batch_size, 
           validation_steps=len(valid) // batch_size,
-          epochs=5000, validation_data=valid_ds, 
+          epochs=500, validation_data=valid_ds, 
           verbose=2,
           callbacks=get_callbacks("osic"))
 
