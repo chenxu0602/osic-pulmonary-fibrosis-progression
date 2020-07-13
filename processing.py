@@ -14,7 +14,6 @@ import seaborn as sns
 
 from sklearn.model_selection import StratifiedKFold, GroupKFold, KFold
 from sklearn.metrics import mean_squared_error
-import category_encoders as ce
 
 from PIL import Image
 import cv2
